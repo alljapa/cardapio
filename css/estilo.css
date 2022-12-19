@@ -1,0 +1,590 @@
+body {
+	margin:0;
+	font-family: 'Merienda', cursive;
+	font-weight: 400;
+	background: #fff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*-----navbar-----*/
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #08090A;
+}
+
+.header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#logo-topo {
+	float: left;
+	padding: 10px 0px 10px 160px;
+}
+
+nav.navbar {
+	float: right;
+}
+
+nav.navbar ul {
+    margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav.navbar > ul > li {
+	display: inline-block;
+	padding-top: 32px;
+	margin-left: 38px;
+	position: relative;
+}
+
+nav.navbar li:last-child {
+    margin-right: 160px;
+
+}
+
+
+nav.navbar li:last-child a{
+  
+	color:#DAAF04;
+}
+
+nav.navbar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav.navbar a.hover {
+	color: #BF202F;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+nav.navbar a:hover {
+	color: #BF202F;
+}
+
+nav.navbar a::before {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #BF202F;
+	
+	position: absolute;
+	top: 63px;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/*-----main-----*/
+
+.main {
+	width: 960px;
+	padding-bottom: 130px;
+	margin: auto;
+	display: relative;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+/*-----home----*/
+
+.clear {
+	clear: both;
+}
+.main .clear {
+	width: 100%;
+	height: 100px;
+	background: #08090A; 
+	margin-top: -5px;
+}
+.img-karpa {
+	width: 480px;
+	height: 200px;
+	float: left;
+	display: absolute;
+}
+.img-karpa .float {
+	margin: 30px 50px 30px 50px;
+	padding: 0px 97px 0px 97px;
+}
+
+.text-karpa {
+	width: 850px;
+	height: 220px;
+	float: left;
+	display: absolute;
+}
+.text-karpa p {
+	margin: 30px 50px 22px 50px;
+	padding: 0px;
+}
+.text-karpa p {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.text-karpa a {
+	margin-right: 50px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 6px;
+	float: right;
+	display: relative;
+	background: #BF202F; 
+}
+
+.text-karpa a:hover {
+	margin-right: 50px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 6px;
+	float: right;
+	display: relative;
+	background: #A5112D; 
+}
+.text-karpa a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+}
+
+.cardapio {
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	color: #08090A;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.more a {
+	margin-top: -30px;
+	margin-right: 50px;
+	padding: 10px 20px;
+	border-radius: 6px;
+	float: right;
+	display: relative;
+	background: #BF202F; 
+}
+
+.more a:hover {
+	margin-top: -30px;
+	margin-right: 50px;
+	padding: 10px 20px;
+	border-radius: 6px;
+	float: right;
+	display: relative;
+	background: #A5112D; 
+}
+.more a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+}
+
+.img-cardapio {
+	width: 100%;
+	height: 170px;
+}
+.group {
+	margin: 5px 90px 0px 90px;
+	padding: 0px;
+	float: left;
+	width: 780px;
+	height: 140px;
+}
+.group a {
+	margin-right: 20px;
+	height: 140px;
+	width: 140px;
+	float: left;
+}
+.group a:hover {     /*editar babado*/
+	margin-right: 20px;
+	height: 140px;
+	width: 140px;
+	float: left;
+}
+
+.group a:first-child {
+	margin-left: 0px; 
+}
+.group a:last-child {         /* nth-child(2) caso precise em alguma parte do projeto*/
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+/* div para cardápio e promoções, sem a tag more*/
+
+.group-cardapio {
+	margin: 15px 90px 15px 90px;
+	padding: 0px;
+	float: left;
+	background: ;
+	width: 780px;
+	height: 140px;
+}
+
+.group-cardapio a {
+	margin-right: 20px;
+	height: 140px;
+	width: 140px;
+	float: left;
+}
+.group-cardapio a:hover {     /*editar babado*/
+	margin-right: 20px;
+	height: 140px;
+	width: 140px;
+	float: left;
+}
+
+.group-cardapio a:first-child {
+	margin-left: 0px; 
+}
+.group-cardapio a:last-child {        
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/*fim div group-cardapio*/
+
+.group-texto {
+	width: 100%;
+	height: 100px;
+}
+
+.group-texto ul {
+    margin: 0px 90px 0px 90px;
+	padding: 0;
+	list-style: none;
+}
+
+.group-texto li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: auto;
+	width: 140px;
+	margin-right: 20px;
+}
+
+.group-texto li:last-child {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 140px;
+	margin-right: 0px;
+}
+
+.group-texto a {
+	color: #08090A;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 700;
+}
+.group-texto a:hover {
+	color: #BF202F;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+/*-------O Karpa-------*/
+
+.title {
+	width: 100%;
+	height: 60px;
+	background: #BF202F;
+}
+
+.title p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.title p {
+	margin-top: 22px;
+	margin-left: 110px;
+	float: left;
+}
+.img {
+	width: 100%;
+	height: 264px;
+	margin-top: 20px;
+}
+.karpa {
+	margin-left: 110px;
+	float: left;
+	padding: 0px;
+}
+.restaurante {
+	margin-right: 110px;
+	float: right;
+	padding: 0px;
+}
+.text {
+	height: auto;
+	width: 740px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+.text p {
+	font-size: 15px;
+	margin: 0px;
+	padding-bottom: 20px;
+	color: #08090A;
+	font-weight: 700;
+}
+
+/*-----Contato-----*/
+
+.main .text-contato p {
+	padding-top: 15px;
+	padding-left: 110px;
+	font-size: 15px;
+}
+form {
+	width: 600px;
+	height: 346px;
+	margin: 0px;
+}
+
+form {
+	padding-top: 27px;
+	padding-left: 110px;
+}
+input {
+	height: 30px;
+}
+
+input, textarea {
+	width: 500px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 7px;
+	font-size: 15px;
+	background: #EAEAEA;
+	border: 1px solid #8E8E8E;
+	font-family: 'Roboto', sans-serif;
+}
+textarea {
+	min-height: 150px;
+	resize: vertical;
+	max-height: 200px;
+	min-height: 100px;
+}
+
+input[type="submit"] {
+	color: #08090A;
+	font-size: 14px; 
+	padding: 5px 0px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	color: #BF202F;                       
+	background: #08090A;                 
+	border: none;
+}
+.address {
+	width: 340px;
+	height: 265px;
+	float: left;
+	margin-left: 110px; 
+	clear: both;
+	margin-bottom: 30px;
+}
+.map {
+	width: 340px;
+	height: 265px;
+	float: right;
+	margin-right: 119px;
+	margin-bottom: 170px;
+}
+.address p {
+	color: #BF202F;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.map p {
+	color: #BF202F;
+	font-size: 20px;
+	font-weight: 400;
+}
+.google-maps {
+	margin-top: 10px;
+}
+
+
+/*------Delivery-----*/
+
+.delivery {
+	width: 100%;
+	height: 400px;
+}
+.delivery p {
+	text-align: center;
+	color: #08090A;
+	padding-top: 58px;
+	font-size: 29px;
+}
+.delivery img {
+	padding-top: 79px;
+	padding-left: 394px;
+	padding-right: 394px;
+}
+
+/*-----footer-----*/
+
+.footer::after {
+	content: '';
+	clear: both;
+}
+
+.footer {
+	width: 100%;
+	background-color: #08090A;
+	height: 135px;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+ 
+}
+
+.logo-rodape {
+	float: left;
+	padding: 15px 0px 15px 160px;
+}
+.propaganda nav {
+	float: left;
+}
+.propaganda nav h3 {
+	font-size: 13px;
+	color: #BF202F;
+	margin-top: 18px;
+	margin-left: 46px;
+}
+.propaganda nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 2px;
+}
+.propaganda nav li {
+	position: relative;
+	margin-left: 46px;
+}
+.propaganda nav li:last-child {
+	margin-right: 0px;
+}
+.propaganda nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 11px;
+}
+.propaganda nav li:last-child a {
+	color: #DAAF04;
+}
+
+.propaganda nav ul li a:hover {
+	color: #DAAF04;
+}
+
+
+.coluna-2 {
+	margin: 0px;
+	float: right;
+	padding-right: 160px;
+	padding-top: 18px;
+}
+
+.coluna-2 h3 {
+	font-size: 13px;
+	color: #BF202F;
+	margin-left: 0px !important; 
+}
+.coluna-2 p {
+	color: #fff;
+	text-decoration: none;
+	font-size: 11px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

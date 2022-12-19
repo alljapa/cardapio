@@ -1,0 +1,24 @@
+.navigation {
+	height: auto;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 105;
+	display: inline-block;
+}
+
+.navigation ul {
+	padding: 10px;
+	padding-top: 600px;
+}
+
+.navigation li {
+	font-family: calibre, aharoni, sans-serif;
+	font-size: 45px;
+	display: inline-block;
+	letter-spacing: 2px;
+	padding-left: 50px;
+	width: 100%;
+	height: 200px;
+}
