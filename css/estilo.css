@@ -114,9 +114,9 @@ nav a:hover::before {
 }
 .main .clear {
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	background: #08090A; 
-	margin-top: -5px;
+	margin-top: -7px;
 }
 .img-karpa {
 	width: 480px;
@@ -131,7 +131,7 @@ nav a:hover::before {
 
 .text-karpa {
 	width: 850px;
-	height: 220px;
+	height: 110px;
 	float: left;
 	display: absolute;
 }
@@ -173,12 +173,29 @@ nav a:hover::before {
 .cardapio {
 	clear: both;
 }
+.cardapio2 {
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 220px;
+}
+.cardapio3 {
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 410px;
+    justify-content: center;
+}
+.cardapio4 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-top: 115px;
+}
 
 h2 {
 	text-align: center;
 	color: #08090A;
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 44px;
 }
 
 .more a {
@@ -209,20 +226,32 @@ h2 {
 
 .img-cardapio {
 	width: 100%;
-	height: 170px;
+	height: 300px;
+}
+.img-cardapio2 {
+	width: 100%;
+}
+.img-cardapio3 {
+	width: 100%;
+}
+.img-cardapio4 {
+	width: 100%;
 }
 .group {
-	margin: 5px 90px 0px 90px;
-	padding: 0px;
-	float: left;
-	width: 780px;
-	height: 140px;
+    display: flex;
+    padding: 0px;
+    float: left;
+    width: 960px;
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .group a {
-	margin-right: 20px;
-	height: 140px;
-	width: 140px;
-	float: left;
+	display: flex;
+    height: 140px;
+    width: 278px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .group a:hover {     /*editar babado*/
 	margin-right: 20px;
@@ -274,9 +303,13 @@ h2 {
 
 /*fim div group-cardapio*/
 
+
 .group-texto {
-	width: 100%;
-	height: 100px;
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-around;
+		padding: 9px;
 }
 
 .group-texto ul {
@@ -287,19 +320,20 @@ h2 {
 
 .group-texto li {
 	display: inline-block;
-	position: relative;
-	float: left;
-	height: auto;
-	width: 140px;
-	margin-right: 20px;
+    position: relative;
+    float: left;
+    height: auto;
+	width: 220px;
+    margin-right: 65px;
+	font-size: 18px;
 }
 
 .group-texto li:last-child {
 	display: inline-block;
 	position: relative;
 	float: left;
-	width: 140px;
-	margin-right: 0px;
+	width: 204px;
+	margin-right: -70px;
 }
 
 .group-texto a {
@@ -484,6 +518,7 @@ input[type="submit"]:hover {
     position: relative;
     bottom: 0;
     width: 100%;
+	margin-top: 180px;
  
 }
 
